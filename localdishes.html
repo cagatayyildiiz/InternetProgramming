@@ -1,31 +1,59 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
 <head>
-<table border = "1" align="center">
-
-         <thead>
-            <tr>
-               <th><a href="home.html" target="top" title="y" >Home</a></th>
-               <th><font size ="6">Local Dishes</font></th>
-			   <th><a href="historicalplaces.html" target="top" title="2" >Historical Places</a> </th>
-			   <th><a href="usefullinks.html" target="top" title="3" >Useful Links </a></th>
-			   <th><a href="aboutme.html" target="top" title="4" >About Me </a></th>
-			   <th><a href="contactme.html" target="top" title="5" >Contact Me</a> </th>
-			   <th><a href="registration.html" target="top" title="5" >Registration</a>  </th>
-            </tr>
-         </thead>
-
-         
-         </tbody>
-      </table>
+<link href="css/bootstrap_slate.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+	<style>
+body {
+    background-color: GhostWhite;
+}
+</style>
+	<style>
+	.profile-pic {
+    width: 75%; 
+    height: 75%; /*I realized this doesnt seem responsive, but no percentages work for me but it appears fine on mobile*/
+}
+	</style>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<ul class="navbar-nav">
+	
+	<li class="nav-item  ">
+	<a class="nav-link" href="Home.html">Home</a>
+	</li>
+	
+	<li class="nav-item">
+      <a class="nav-link active" href="">Local Dishes</a>
+    </li>
+	
+	
+    <li class="nav-item">
+      <a class="nav-link" href="historicalplaces.html">Historical Places</a>
+    </li>
+	
+	<li class="nav-item">
+      <a class="nav-link" href="aboutme.html">About me</a>
+    </li>
+	
+	<li class="nav-item">
+      <a class="nav-link" href="contactme.html">Contact me</a>
+    </li>
+	
+	<li class="nav-item">
+      <a class="nav-link" href="registration.html">Registration</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="usefullinks.html">Useful Links</a>
+    </li>
+	</nav>
 </head>
 <body>
 <h1 align="center" >Local Dishes</h1>
-<h2 align="center"> 1. Borsch / Borscht</h2>
-<div>
-    <p style="float: left;"><img src="https://www.expatica.com/upload/aoife/Muffet_borsch_soup.jpg" alt="Borsch"
- height="180px" width="340px" border="1px"></p>
+<div class="container.fluid">
+<h2 > 1. Borsch / Borscht</h2>
+
+    <p style="float: left;"><img class="img-fluid profile-pic" src="https://www.expatica.com/upload/aoife/Muffet_borsch_soup.jpg" alt="Borsch"
+ border="1px"></p>
  <p><font size ="6">
  This beet and cabbage red soup is a delicious belly warmer on Moscow's colder days, served with or without meat, potato, herbs (usually dill) and a dollop of smetana, Russian sour cream.
  Accompanied with a piece of rye bread or garlic bread topped with melted cheese, this dish is hearty enough to serve as a meal, although it is usually eaten as a starter.
@@ -34,10 +62,15 @@
  </font>
  </p>
  </div>
- <h2 align="center"> 2. Russian Pancakes</h2>
- <div>
- <p style="float: left;"><img src="https://www.expatica.com/upload/aoife/Wikipedia_blini.jpg" alt="Pancakes"
- height="180px" width="340px" border="1px"></p>
+ <br></br>
+ <br></br>
+  <br></br>
+
+ <div class="container.fluid">
+  <h2 > 2. Russian Pancakes</h2>
+
+ <p style="float: left;"><img class="img-fluid profile-pic " src="https://www.expatica.com/upload/aoife/Wikipedia_blini.jpg" alt="Pancakes" style="height:10%"
+  border="1px"></p>
 <p>
 <font size="6">
  Blini are Russia's version of the thin French crêpe and a staple on most Moscovian menus, typically made with buckwheat for savoury fillings or white flour for sweet toppings.
@@ -47,10 +80,18 @@
  </font>
 </p>
 </div>
-<h2 align="center">3. Russian Salad</h2>
-<div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<h2 >3. Russian Salad</h2>
+<div class="container.fluid">
 
-    <p style="float: left;"><img src=" https://www.expatica.com/upload/casey/RUsalad.jpg" alt="Russian Salad"
+    <p style="float: left;"><img src=" https://www.expatica.com/upload/casey/RUsalad.jpg" alt="Russian Salad" class="img-fluid profile-pic"
  height="180px" width="340px" border="1px"></p>
  <p><font size ="6">
  This hardly needs mentioning seeing as ‘Russian salad' is one such dish that has spread internationally, and chances are you've tried a version in your home country.
