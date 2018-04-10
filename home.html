@@ -2,29 +2,82 @@
 <html>
 <meta charset="UTF-8">
 <head>
-      <table border = "1" align="center">
+    <link href="css/bootstrap_slate.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+<style>
+body {
+    background-color: GhostWhite;
+}
+</style>
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<ul class="navbar-nav">
+	
+	<li class="nav-item active ">
+	<a class="nav-link" href="">Home</a>
+	</li>
+	
+	<li class="nav-item ">
+      <a class="nav-link" href="localdishes.html">Local Dishes</a>
+    </li>
+	
+	
+    <li class="nav-item ">
+      <a class="nav-link" href="historicalplaces.html">Historical Places</a>
+    </li>
+	
+	<li class="nav-item ">
+      <a class="nav-link" href="aboutme.html">About me</a>
+    </li>
+	
+	<li class="nav-item ">
+      <a class="nav-link" href="contactme.html">Contact me</a>
+    </li>
+	
+	<li class="nav-item ">
+      <a class="nav-link" href="registration.html">Registration</a>
+    </li>
+	
+	<li class="nav-item">
+      <a class="nav-link" href="usefullinks.html">Useful Links</a>
+    </li>
+	
+	</nav>
+	<style>
+	.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
 
-         <thead>
-            <tr>
-               <th><font size="6">Home</font></th>
-               <th><a href="localdishes.html" target="top" title="y" >Local Dishes</a></th>
-			   <th><a href="historicalplaces.html" target="top" title="2" >Historical Places</a> </th>
-			   <th><a href="usefullinks.html" target="top" title="3" >Useful Links </a></th>
-			   <th><a href="aboutme.html" target="top" title="4" >About Me </a></th>
-			   <th><a href="contactme.html" target="top" title="5" >Contact Me</a> </th>
-			   <th><a href="registration.html" target="top" title="5" >Registration</a>  </th>
-            </tr>
-         </thead>
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 45%;
+height: 45%;
+}
+	</style>
 
-         
-         </tbody>
-      </table>
+
 </head>
 <body>
-<h1 align="center"><font size="6">Moscow</font></h1>
-<div>
-    <p style="float: left;"><img src="https://fthmb.tqn.com/8Gt4bWdSfOmARhbSwKLbfvwFzss=/960x0/filters:no_upscale()/winter-in-moscow--russia--629101330-597a7b9168e1a20011608e1e.jpg"
- height="400px" width="480px" border="1px"></p>
+
+<h1><font size="6">Moscow</font></h1>
+        <div class="col-"  >
+            <img class="img-fluid " width="853" height="480" src="https://fthmb.tqn.com/8Gt4bWdSfOmARhbSwKLbfvwFzss=/960x0/filters:no_upscale()/winter-in-moscow--russia--629101330-597a7b9168e1a20011608e1e.jpg">
+		 	
+        </div>
+		
+		
+		
+<div class="container.fluid">
+
+
+	
+    
     <p>You say the word "Moscow" to Americans, and it conjures up the Kremlin, Red Square and images of intensely cold winters against the backdrop of colorful onion domes.
 
 Moscow was Russia's capital before Peter the Great moved the capital to his new city, St. Petersburg, in 1712, and then again as the capital of the Soviet Union after the Russian Revolution -- the government was moved back to Moscow in 1918.
@@ -82,8 +135,10 @@ Russia's capital city is expensive, and the closer to the center you stay, the m
 For travelers on a budget, it's prudent to stay on the outside of the city and take the metro into the city center.</p>
 </p>
 </div>
-<h4 align="center" > Here is a bird view video of Moscow</h4>
-<iframe width="1366" height="720" src="https://www.youtube.com/embed/GAtqNP1ldvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h3> Here is a bird view video of Moscow</h3>
+
+<div class="video-container"><iframe  width="853" height="480" src="https://www.youtube.com/embed/GAtqNP1ldvw" frameborder="0" allowfullscreen</iframe</div>
+
 
 </body>
 </html>
